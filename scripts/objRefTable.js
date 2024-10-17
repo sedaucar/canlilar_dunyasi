@@ -18,13 +18,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Sprite.Cnds.IsAnimPlaying,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.Mouse.Acts.SetCursor,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.System.Cnds.OnLayoutEnd,
+		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.Sprite.Acts.SetAnim,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
@@ -46,8 +46,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.CompareBoolVar,
 		C3.Plugins.Arr.Acts.Pop,
 		C3.Plugins.System.Acts.AddVar,
-		C3.Plugins.System.Cnds.IsGroupActive,
-		C3.Plugins.System.Cnds.CompareVar
+		C3.Plugins.Sprite.Cnds.IsVisible,
+		C3.Plugins.System.Cnds.CompareVar,
+		C3.Plugins.System.Cnds.IsGroupActive
 	];
 };
 self.C3_JsPropNameTable = [
@@ -88,6 +89,7 @@ self.C3_JsPropNameTable = [
 	{tebrik: 0},
 	{mikroskobik: 0},
 	{hayvanlar: 0},
+	{dogruyanlis: 0},
 	{butonlar: 0},
 	{yildizz: 0},
 	{randomsoru: 0},
@@ -131,6 +133,7 @@ self.InstanceType = {
 	tebrik: class extends self.ISpriteInstance {},
 	mikroskobik: class extends self.ISpriteInstance {},
 	hayvanlar: class extends self.ISpriteInstance {},
+	dogruyanlis: class extends self.ISpriteInstance {},
 	butonlar: class extends self.ISpriteInstance {},
 	yildizz: class extends self.ISpriteInstance {}
 }

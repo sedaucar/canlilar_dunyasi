@@ -4739,7 +4739,6 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		() => "background",
-		() => "bilgi",
 		p => {
 			const n0 = p._GetNode(0);
 			return () => n0.ExpInstVar();
@@ -4747,11 +4746,10 @@ self.C3_ExpressionFuncs = [
 		() => 1,
 		() => 0,
 		() => "muzik",
+		() => "bilgi",
 		() => "ses",
 		() => "open",
 		() => "hazirlayan",
-		() => "kaynakca",
-		() => "butonlar",
 		() => "close",
 		() => "end",
 		() => "game",
@@ -4791,18 +4789,19 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
 		},
+		() => 9,
 		() => 10,
-		() => 2,
-		() => 8,
-		() => 20,
 		() => 19,
-		() => 24,
+		() => 20,
 		() => 23,
-		() => "yildiz",
+		() => 24,
+		() => 26,
 		() => 4,
+		() => 8,
 		() => 12,
 		() => 16,
-		() => 28
+		() => 28,
+		() => "yildiz"
 ];
 
 
