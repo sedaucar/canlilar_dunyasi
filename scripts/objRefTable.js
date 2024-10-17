@@ -90,6 +90,8 @@ self.C3_JsPropNameTable = [
 	{mikroskobik: 0},
 	{hayvanlar: 0},
 	{dogruyanlis: 0},
+	{carpi: 0},
+	{Sprite: 0},
 	{butonlar: 0},
 	{yildizz: 0},
 	{randomsoru: 0},
@@ -134,6 +136,8 @@ self.InstanceType = {
 	mikroskobik: class extends self.ISpriteInstance {},
 	hayvanlar: class extends self.ISpriteInstance {},
 	dogruyanlis: class extends self.ISpriteInstance {},
+	carpi: class extends self.ISpriteInstance {},
+	Sprite: class extends self.ISpriteInstance {},
 	butonlar: class extends self.ISpriteInstance {},
 	yildizz: class extends self.ISpriteInstance {}
 }
