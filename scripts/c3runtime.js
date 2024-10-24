@@ -4750,6 +4750,7 @@ self.C3_ExpressionFuncs = [
 		() => "ses",
 		() => "open",
 		() => "hazirlayan",
+		() => "kaynakca",
 		() => "close",
 		() => "end",
 		() => "game",
